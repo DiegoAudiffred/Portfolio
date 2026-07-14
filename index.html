@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Audiffred Mayoral - Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/dist/css/box.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.25;
+            color: #212529;
+        }
+        section {
+            padding: 80px 0;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a4ab8 100%);
+            padding: 120px 0;
+        }
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">DAM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-section text-white text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">Diego Audiffred Mayoral</h1>
+            <p class="lead fs-4 mb-4">Desarrollador de Software / Fullstack Developer</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#proyectos" class="btn btn-light btn-lg px-4 me-sm-3 fw-bold text-primary">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-outline-light btn-lg px-4">Contactar</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre-mi" class="bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <div class="bg-secondary text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 250px; height: 250px;">
+                        <i class="bi bi-person-fill" style="font-size: 6rem;"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">Sobre Mí</h2>
+                    <p class="mb-3">Hola, soy Diego. Me apasiona construir aplicaciones web robustas, eficientes y centradas en el usuario. Disfruto resolver problemas complejos mediante lógica limpia y arquitecturas escalables.</p>
+                    <p class="mb-4">Mi objetivo es seguir evolucionando en el stack tecnológico actual, aportando valor en cada línea de código y colaborando en proyectos desafiantes.</p>
+                    <a href="#" class="btn btn-primary"><i class="bi bi-file-earmark-pdf-fill me-2"></i>Descargar CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Mis Habilidades</h2>
+            <div class="row g-4 text-center">
+                <div class="col-6 col-md-3">
+                    <div class="p-4 border rounded bg-light">
+                        <i class="bi bi-code-slash text-primary display-4 mb-3 d-block"></i>
+                        <h5 class="fw-bold">Frontend</h5>
+                        <p class="text-muted mb-0">HTML, CSS, JavaScript, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-4 border rounded bg-light">
+                        <i class="bi bi-terminal text-primary display-4 mb-3 d-block"></i>
+                        <h5 class="fw-bold">Backend</h5>
+                        <p class="text-muted mb-0">Node.js, Express, Python</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-4 border rounded bg-light">
+                        <i class="bi bi-database text-primary display-4 mb-3 d-block"></i>
+                        <h5 class="fw-bold">Bases de Datos</h5>
+                        <p class="text-muted mb-0">SQL, PostgreSQL, MongoDB</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-4 border rounded bg-light">
+                        <i class="bi bi-git text-primary display-4 mb-3 d-block"></i>
+                        <h5 class="fw-bold">Herramientas</h5>
+                        <p class="text-muted mb-0">Git, GitHub, Docker, Linux</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Proyectos Destacados</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="bg-dark text-white text-center py-5">
+                            <i class="bi bi-cart3 display-1 text-secondary"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Plataforma E-commerce</h5>
+                            <p class="card-text text-muted">Una tienda en línea completa con carrito de compras, autenticación de usuarios y pasarela de pagos integrada.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-secondary">React</span>
+                                <span class="badge bg-secondary">Node.js</span>
+                                <span class="badge bg-secondary">MongoDB</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-sm btn-outline-primary">Código</a>
+                                <a href="#" class="btn btn-sm btn-primary">Demo en Vivo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="bg-dark text-white text-center py-5">
+                            <i class="bi bi-kanban display-1 text-secondary"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Gestor de Tareas (Kanban)</h5>
+                            <p class="card-text text-muted">Aplicación interactiva para la gestión de proyectos individuales y grupales, organizada en columnas de estado.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-secondary">JavaScript</span>
+                                <span class="badge bg-secondary">Bootstrap</span>
+                                <span class="badge bg-secondary">Firebase</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-sm btn-outline-primary">Código</a>
+                                <a href="#" class="btn btn-sm btn-primary">Demo en Vivo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="bg-dark text-white text-center py-5">
+                            <i class="bi bi-cloud-sun display-1 text-secondary"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">App del Clima Clona</h5>
+                            <p class="card-text text-muted">Consulta del clima en tiempo real utilizando APIs externas, con geolocalización e historial de búsquedas.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-secondary">Python</span>
+                                <span class="badge bg-secondary">Flask</span>
+                                <span class="badge bg-secondary">WeatherAPI</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-sm btn-outline-primary">Código</a>
+                                <a href="#" class="btn btn-sm btn-primary">Demo en Vivo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Contacto</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p class="fs-5 text-muted mb-4">¿Tienes un proyecto en mente o buscas incorporar talento a tu equipo? Hablemos.</p>
+                    <div class="mb-4">
+                        <a href="mailto:diego@example.com" class="btn btn-primary btn-lg px-4"><i class="bi bi-envelope-fill me-2"></i>diego@example.com</a>
+                    </div>
+                    <div class="d-flex justify-content-center gap-3 fs-3">
+                        <a href="#" class="text-dark"><i class="bi bi-github"></i></a>
+                        <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Diego Audiffred Mayoral. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
